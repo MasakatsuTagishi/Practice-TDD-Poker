@@ -16,6 +16,7 @@
 		07A1337428375A1000FF74BE /* Practice_TDD_PokerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07A1337328375A1000FF74BE /* Practice_TDD_PokerTests.swift */; };
 		07A1337E28375A1000FF74BE /* Practice_TDD_PokerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07A1337D28375A1000FF74BE /* Practice_TDD_PokerUITests.swift */; };
 		07A1338028375A1000FF74BE /* Practice_TDD_PokerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07A1337F28375A1000FF74BE /* Practice_TDD_PokerUITestsLaunchTests.swift */; };
+		07A1338E28375CBC00FF74BE /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07A1338D28375CBB00FF74BE /* Card.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		07A1337928375A1000FF74BE /* Practice-TDD-PokerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Practice-TDD-PokerUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		07A1337D28375A1000FF74BE /* Practice_TDD_PokerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Practice_TDD_PokerUITests.swift; sourceTree = "<group>"; };
 		07A1337F28375A1000FF74BE /* Practice_TDD_PokerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Practice_TDD_PokerUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		07A1338D28375CBB00FF74BE /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +104,7 @@
 				07A1335C28375A0F00FF74BE /* AppDelegate.swift */,
 				07A1335E28375A0F00FF74BE /* SceneDelegate.swift */,
 				07A1336028375A0F00FF74BE /* ViewController.swift */,
+				07A1338D28375CBB00FF74BE /* Card.swift */,
 				07A1336228375A0F00FF74BE /* Main.storyboard */,
 				07A1336528375A1000FF74BE /* Assets.xcassets */,
 				07A1336728375A1000FF74BE /* LaunchScreen.storyboard */,
@@ -261,6 +264,7 @@
 				07A1336128375A0F00FF74BE /* ViewController.swift in Sources */,
 				07A1335D28375A0F00FF74BE /* AppDelegate.swift in Sources */,
 				07A1335F28375A0F00FF74BE /* SceneDelegate.swift in Sources */,
+				07A1338E28375CBC00FF74BE /* Card.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
