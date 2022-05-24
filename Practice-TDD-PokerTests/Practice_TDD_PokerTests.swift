@@ -10,12 +10,24 @@ import XCTest
 
 class Practice_TDD_PokerTests: XCTestCase {
     func testInitializeCard() {
-        let card1 = Card(suit: .heart, rank: .three)
-        XCTAssertEqual(card1.suit, .heart)
-        XCTAssertEqual(card1.rank, .three)
+        var card: Card
 
-        let card2 = Card(suit: .spade, rank: .jack)
-        XCTAssertEqual(card2.suit, .spade)
-        XCTAssertEqual(card2.rank, .jack)
+        card = Card(suit: .heart, rank: .three)
+        XCTAssertEqual(card.suit, .heart)
+        XCTAssertEqual(card.rank, .three)
+
+        card = Card(suit: .spade, rank: .jack)
+        XCTAssertEqual(card.suit, .spade)
+        XCTAssertEqual(card.rank, .jack)
+    }
+
+    func testCardNotation() {
+        var card: Card
+
+        card = Card(suit: .heart, rank: .three)
+        XCTAssertEqual(card.notation, "3❤︎")
+
+        card = Card(suit: .spade, rank: .jack)
+        XCTAssertEqual(card.notation, "J♠︎")
     }
 }
